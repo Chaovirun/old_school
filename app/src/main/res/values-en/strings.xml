@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OldSchool</string>
+    <string name="app_name1">old school</string>
+    <string name="app_name2">old school</string>
+    <string name="change_language">change langauages</string>
+    <string name="km_lang">Khmer</string>
+    <string name="en_lang">english</string>
+    <string name="getStart">ok let\'s start</string>
+    <string name="hello">hello anybody how??</string>
+    <string name="jp_lang">japanese</string>
+    <string name="ko_lang">korean</string>
+    <string name="next">next</string>
+    <string name="tutorial">tutorials</string>
+    <string name="zh_lang">china</string>
+    <string name="m_back">go back</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.android.oldschool.comm.PresetValueButton
+        android:id="@+id/preset_time_value_button_30"
+        style="@style/PresetLayoutButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        app:presetButtonUnitText="@string/unit_seconds"
+        app:presetButtonValueText="@string/title_time_preset_30" />
+
+</LinearLayout>

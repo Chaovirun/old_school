@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OldSchool</string>
+    <string name="app_name1">OldSchool</string>
+    <string name="app_name2">OldSchool</string>
+
+    <string name="km_lang">ខ្មែរ</string>
+    <string name="en_lang">English</string>
+    <string name="ko_lang">Korea</string>
+    <string name="jp_lang">Japanese</string>
+    <string name="zh_lang">China</string>
+    <string name="hello">សួរស្ដី</string>
+    <string name="getStart">ចាប់ផ្ដើម</string>
+    <string name="next">Next</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="change_language">ប្ដូរភាសា</string>
+    <string name="m_back">បកត្រោយ</string>
+
+    <!--    <drawable name="coach_01d_bg">@drawable/ko_coach_01d_bg</drawable>-->
+<!--    <drawable name="coach_01u_bg">@drawable/ko_coach_01u_bg</drawable>-->
+<!--    <drawable name="coach_02_receipt_bg">@drawable/ko_coach_02_receipt_bg</drawable>-->
+<!--    <drawable name="coach_02d_bg">@drawable/ko_coach_02d_bg</drawable>-->
+<!--    <drawable name="coach_02u_bg">@drawable/ko_coach_02u_bg</drawable>-->
+<!--    <drawable name="coach_03d_bg">@drawable/ko_coach_03d_bg</drawable>-->
+<!--    <drawable name="coach_03u_bg">@drawable/ko_coach_03u_bg</drawable>-->
+<!--    <drawable name="report_btn">@drawable/ko_report_btn</drawable>-->
+</resources>

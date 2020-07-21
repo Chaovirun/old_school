@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="indicator_space">5dp</dimen>
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+
+    <dimen name="padding_side_title_text">5dp</dimen>
+    <dimen name="padding_top_title_text">10dp</dimen>
+    <dimen name="text_size_time_preset_unit">20sp</dimen>
+</resources>

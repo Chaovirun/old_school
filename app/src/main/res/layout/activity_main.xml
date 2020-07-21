@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ly1"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img1"-->
+<!--                android:visibility="gone"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:src="@drawable/main_pgn_on_icon"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp" />-->
+<!--            <ImageView-->
+<!--                android:id="@+id/img2"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:visibility="gone"-->
+<!--                android:src="@drawable/main_pgn_off_icon"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp" />-->
+<!--            <ImageView-->
+<!--                android:id="@+id/img3"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:visibility="gone"-->
+<!--                android:src="@drawable/main_pgn_off_icon"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp" />-->
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycler_view"
+            android:layout_height="300dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycler_view1"
+            android:visibility="gone"
+            android:layout_height="300dp"/>
+
+
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/inputPhone"
+            android:layout_width="match_parent"
+            android:hint="@string/app_name"
+            android:layout_height="wrap_content"/>
+
+<!--        <com.android.oldschool.TabGroup-->
+<!--            android:id="@+id/tapGroup"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_margin="30dp"-->
+<!--            app:childBackground="@color/colorPrimaryDark"-->
+<!--            app:focusColor="@color/colorAccent">-->
+
+<!--            <com.android.oldschool.comm.FDRButton-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_height="80dp">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="@string/app_name"/>-->
+<!--            </com.android.oldschool.comm.FDRButton>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_height="10dp">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="@string/app_name"/>-->
+<!--            </LinearLayout>-->
+
+<!--        </com.android.oldschool.TabGroup>-->
+
+        <com.android.square_grid.GridSquareItem
+            android:layout_width="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category Name"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/tvCategoryName" />
+        </com.android.square_grid.GridSquareItem>
+        <com.android.square_grid.GridSquareItem
+            android:layout_width="100dp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category Name"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary" />
+        </com.android.square_grid.GridSquareItem>
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/radio"
+                android:button="@drawable/rb_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  CarouselLayoutManager"/>
+            <RadioButton
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio1"
+                android:button="@drawable/rb_bg"
+                android:text="  LinearLayoutManager" />
+        </RadioGroup>
+
+        <Button
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:text="Change language"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/btnShow"
+                android:layout_width="wrap_content"
+                android:text="@string/change_language"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/btnGo"
+                android:layout_width="wrap_content"
+                android:text="Clear preference"
+                android:textAllCaps="false"
+                android:visibility="visible"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:text="@string/hello"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+
+        <com.android.oldschool.InputPhone
+            android:id="@+id/inputPhoneFormat"
+            android:layout_width="match_parent"
+            android:hint="input phone number"
+            android:inputType="phone"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="match_parent"
+            android:hint="@string/app_name"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

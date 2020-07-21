@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OldSchool</string>
+    <string name="app_name1">OldSchool</string>
+    <string name="app_name2">OldSchool</string>
+    <string name="km_lang">Khmer</string>
+    <string name="en_lang">English</string>
+    <string name="jp_lang">Japanese</string>
+    <string name="ko_lang">Korea</string>
+    <string name="zh_lang">China</string>
+    <string name="hello">こんにちは</string>
+    <string name="getStart">始める</string>
+    <string name="next">次に</string>
+    <string name="tutorial">チュートリアル</string>
+    <string name="change_language">言語を変えてください</string>
+    <string name="m_back">背部</string>
+</resources>

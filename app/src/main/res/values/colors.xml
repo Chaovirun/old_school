@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_b71c1c">#b71c1c</color>
+    <color name="rippelColor">#0099CC</color>
+    <color name="color_ffffff">#ffffff</color>
+
+    <color name="light_grey_semi_transparent">#80313435</color>
+</resources>
