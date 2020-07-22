@@ -33,7 +33,6 @@ public class SettingActivity extends CoreActivity{
     PresetRadioGroup mSetDurationPresetRadioGroup;
     RecyclerView recyclerView;
     ArrayList<UsageItem> items;
-    int pos = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
